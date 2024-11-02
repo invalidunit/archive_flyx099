@@ -222,6 +222,86 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.dyhook
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 11788
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/com.xx.dyhook_2.0.7_iphoneos-arm64_da3b83c397bf378ca542240d45b6eb56c3ca2eeca7adc9284a97405a931742a2.deb
+Size: 4175808
+MD5sum: 523b892c1d7096547e4621b8945176db
+SHA1: 7f05fa6ff2aa541f94a820b120620e6b02ac880b
+SHA256: da3b83c397bf378ca542240d45b6eb56c3ca2eeca7adc9284a97405a931742a2
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.7+1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 12384
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/com.xx.dyhook_2.0.7+1_iphoneos-arm64_58ea3bbfaa8952f4c9c925aff0b34fbe23bce6f324078abf645825d0cdb02763.deb
+Size: 4268252
+MD5sum: a8f4dbdb0ca39687fa8eff32b4988611
+SHA1: 252d6d3d4e3a0197913faded5740c5b2014d1ab0
+SHA256: 58ea3bbfaa8952f4c9c925aff0b34fbe23bce6f324078abf645825d0cdb02763
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.7+2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 12952
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/com.xx.dyhook_2.0.7+2_iphoneos-arm64_d42fbe6ee9f93b7a67d925accf68357aac2784434a18776bfa6269ee936bda88.deb
+Size: 4477236
+MD5sum: 4c5deeef948288bfcfbffaf077b2cb46
+SHA1: bc5ba6b41a1fa16f3e771ed5e80d9bc23883b252
+SHA256: d42fbe6ee9f93b7a67d925accf68357aac2784434a18776bfa6269ee936bda88
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.7+3
+Architecture: iphoneos-arm
+Maintainer: x✨
+Installed-Size: 13456
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm/com.xx.dyhook_2.0.7+3_iphoneos-arm_2c94f0617faccba034a9b271760bcfb8f8688b920760d9815d381a65eb0a8bf8.deb
+Size: 4648940
+MD5sum: 2073e050bfc2d88d606c5922edfcc934
+SHA1: 07cccff33dc738bed0aba40b769730ea8df64b4f
+SHA256: 2c94f0617faccba034a9b271760bcfb8f8688b920760d9815d381a65eb0a8bf8
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.7+3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 13472
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/com.xx.dyhook_2.0.7+3_iphoneos-arm64_1170898052417c17ef6d4788469911aadc7810bb50028bce8dba3d7faffaeb3d.deb
+Size: 4660156
+MD5sum: f6f4911d6e26b951a3dd980060771868
+SHA1: f7a30df54c0c3c9b50090b3b3717cf204da819c1
+SHA256: 1170898052417c17ef6d4788469911aadc7810bb50028bce8dba3d7faffaeb3d
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
 Package: com.xx.ecnyhook
 Version: 1.0.2
 Architecture: iphoneos-arm
