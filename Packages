@@ -302,6 +302,38 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.dyhook
+Version: 2.0.7+5
+Architecture: iphoneos-arm
+Maintainer: x✨
+Installed-Size: 13696
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm/com.xx.dyhook_2.0.7+5_iphoneos-arm_05e746aa8e7f2d65de9457cab6f1856969e5d3c091127685fd3c06172efa4f55.deb
+Size: 4726144
+MD5sum: 41ff563795b481626fc47cc8cea2b893
+SHA1: ec8a2ca1802e4b78487fdcb2150e26039dfaf7f0
+SHA256: 05e746aa8e7f2d65de9457cab6f1856969e5d3c091127685fd3c06172efa4f55
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.7+5
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 13680
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/com.xx.dyhook_2.0.7+5_iphoneos-arm64_fe00267add2152840604d2a8962ef46f3f0b40b95a04a7878b5c409f8f4c9802.deb
+Size: 4729772
+MD5sum: 0f115078b49f137f9e1563044d7dfc52
+SHA1: 66fea7b364a6b39d5ee269ec39e4b371cd22d3ac
+SHA256: fe00267add2152840604d2a8962ef46f3f0b40b95a04a7878b5c409f8f4c9802
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
 Package: com.xx.ecnyhook
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -1099,6 +1131,38 @@ SHA1: 4f93e63af95fe0bb85904f1c55474d2b241eb241
 SHA256: 04f738c70635c0a7e76bce71fc539fb487ca7c7b852472d8fdddd4d9e0787593
 Section: Tweaks
 Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
+Author: x✨
+Name: 小红薯
+
+Package: com.xx.xhshook
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: x✨
+Installed-Size: 3256
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm/com.xx.xhshook_1.1.2_iphoneos-arm_b83f82a9e3e13c03032ac1d4dc393687f94bd7818a8f129b7b589258ac340439.deb
+Size: 1135032
+MD5sum: 1fc6912f465eed0b721f13502dc9ab17
+SHA1: a0f685d52632182aefd8a43674ca3f4a986020cb
+SHA256: b83f82a9e3e13c03032ac1d4dc393687f94bd7818a8f129b7b589258ac340439
+Section: Tweaks
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片·live图 长按文案复制
+Author: x✨
+Name: 小红薯
+
+Package: com.xx.xhshook
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 3288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/com.xx.xhshook_1.1.2_iphoneos-arm64_5035bd6562c6efe6ee1fda4921f644173757eb37791e97c70e6f812de8977fb6.deb
+Size: 1146900
+MD5sum: 8d430d60357205dcd34c3f1ea1206ffb
+SHA1: d18c0dcc3e4a78d02a2c3c9be781470abb0142e5
+SHA256: 5035bd6562c6efe6ee1fda4921f644173757eb37791e97c70e6f812de8977fb6
+Section: Tweaks
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片·live图 长按文案复制
 Author: x✨
 Name: 小红薯
 
