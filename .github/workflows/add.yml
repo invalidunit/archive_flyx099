@@ -35,3 +35,4 @@ jobs:
             rm -f "./tmp/Packages"
             i="$((i+1))"
           done
+          rm -rf "./tmp/"
