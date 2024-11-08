@@ -1,0 +1,37 @@
+name: "add"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  add_new_deb:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: check folder
+        run: |
+          if [ ! -e "./tmp/debs" ]; then
+            exit 0
+          fi
+
+      - name: install depends
+        run: |
+          sudo apt update 2>>/dev/null 1>>/dev/null
+          sudo apt install bzip2 dpkg-dev gawk gzip sed xz-utils -y
+
+      - name: mv file
+        run: |
+          mkdir -p "./tmp/deb"
+          i='1'
+          i_max="$(find "./tmp/debs" -maxdepth 1 -type f | wc -l)"
+          while [ "${i}" -le "${i_max}" ]; do
+            mv "$(find "./tmp/debs" -maxdepth 1 -type f | sed -n "${i}p")" "./tmp/deb/"
+            dpkg-scanpackages -m ./deb /dev/null >"./tmp/Packages"
+            mv "$(find "./tmp/deb/" -maxdepth 1 -type f | sed -n '1p')" "./debs/$(grep '^Package: ' "./tmp/Packages" | awk -F '' '{print $2}')_$(grep '^Version: ' "./tmp/Packages" | awk -F '' '{print $2}')_$(grep '^Architecture: ' "./tmp/Packages" | awk -F '' '{print $2}')_$(grep '^SHA256: ' "./tmp/Packages" | awk -F '' '{print $2}').deb"
+            rm -f "./tmp/Packages"
+            i="$((i+1))"
+          done
