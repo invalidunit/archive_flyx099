@@ -31,6 +31,7 @@ jobs:
           while [ "${i}" -lt "${i_max}" ]; do
             mv "$(find "./tmp/debs" -maxdepth 1 -type f | sed -n "${i}p")" "./tmp/deb/"
             dpkg-scanpackages -m "./tmp/deb" /dev/null 1>"./tmp/Packages" 2>>/dev/null
+            echo mv -v "$(find "./tmp/deb/" -maxdepth 1 -type f | sed -n '1p')" "./debs/$(grep '^Package: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^Version: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^Architecture: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^SHA256: ' "./tmp/Packages" | awk -F ' ' '{print $2}').deb"
             mv -v "$(find "./tmp/deb/" -maxdepth 1 -type f | sed -n '1p')" "./debs/$(grep '^Package: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^Version: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^Architecture: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^SHA256: ' "./tmp/Packages" | awk -F ' ' '{print $2}').deb"
             rm -f "./tmp/Packages"
             i="$((i+1))"
