@@ -28,7 +28,7 @@ jobs:
           mkdir -p "./tmp/deb"
           i='1'
           i_max="$(find "./tmp/debs" -maxdepth 1 -type f | wc -l)"
-          while [ "${i}" -lt "${i_max}" ]; do
+          while [ "${i}" -le "${i_max}" ]; do
             cp -a "$(find "./tmp/debs" -maxdepth 1 -type f | sed -n "${i}p")" "./tmp/deb/"
             dpkg-scanpackages -m "./tmp/deb" /dev/null 1>"./tmp/Packages" 2>>/dev/null
             mv -v "$(find "./tmp/deb/" -maxdepth 1 -type f | sed -n '1p')" "./debs/$(grep '^Package: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^Version: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^Architecture: ' "./tmp/Packages" | awk -F ' ' '{print $2}')_$(grep '^SHA256: ' "./tmp/Packages" | awk -F ' ' '{print $2}').deb"
