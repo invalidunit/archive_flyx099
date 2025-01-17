@@ -1842,13 +1842,13 @@ Package: com.xx.xhshook
 Version: 1.1.2
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 3288
+Installed-Size: 2420
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphoneos-arm64/com.xx.xhshook_1.1.2_iphoneos-arm64_5035bd6562c6efe6ee1fda4921f644173757eb37791e97c70e6f812de8977fb6.deb
-Size: 1146900
-MD5sum: 8d430d60357205dcd34c3f1ea1206ffb
-SHA1: d18c0dcc3e4a78d02a2c3c9be781470abb0142e5
-SHA256: 5035bd6562c6efe6ee1fda4921f644173757eb37791e97c70e6f812de8977fb6
+Filename: ./debs/iphoneos-arm64/com.xx.xhshook_1.1.2_iphoneos-arm64_d68e840846f20d4a628f42387e31004916034d07a591ceda89d69d61ded96b2c.deb
+Size: 766964
+MD5sum: e7af8eadcb05f4af1739b1af9cef5706
+SHA1: 02ae855c839fd44c2657fcc40b86b000384e2228
+SHA256: d68e840846f20d4a628f42387e31004916034d07a591ceda89d69d61ded96b2c
 Section: Tweaks
 Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片·live图 长按文案复制
 Author: x✨
@@ -1858,13 +1858,13 @@ Package: com.xx.xhshook
 Version: 1.1.2
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 2420
+Installed-Size: 3288
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphoneos-arm64/com.xx.xhshook_1.1.2_iphoneos-arm64_d68e840846f20d4a628f42387e31004916034d07a591ceda89d69d61ded96b2c.deb
-Size: 766964
-MD5sum: e7af8eadcb05f4af1739b1af9cef5706
-SHA1: 02ae855c839fd44c2657fcc40b86b000384e2228
-SHA256: d68e840846f20d4a628f42387e31004916034d07a591ceda89d69d61ded96b2c
+Filename: ./debs/iphoneos-arm64/com.xx.xhshook_1.1.2_iphoneos-arm64_5035bd6562c6efe6ee1fda4921f644173757eb37791e97c70e6f812de8977fb6.deb
+Size: 1146900
+MD5sum: 8d430d60357205dcd34c3f1ea1206ffb
+SHA1: d18c0dcc3e4a78d02a2c3c9be781470abb0142e5
+SHA256: 5035bd6562c6efe6ee1fda4921f644173757eb37791e97c70e6f812de8977fb6
 Section: Tweaks
 Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片·live图 长按文案复制
 Author: x✨
